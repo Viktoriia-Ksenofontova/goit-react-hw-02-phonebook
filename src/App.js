@@ -1,10 +1,10 @@
 import { Component } from 'react';
 import './App.css';
 import { v4 as uuidv4 } from 'uuid';
-import ContactForm from './Components/ContactForm/ContactForm';
+import ContactForm from './Components/ContactForm';
 import ContactList from './Components/Contacts/ContactsList';
-import Section from './Components/Section/Section';
-import Filter from './Components/Filter/Filter';
+import Section from './Components/Section';
+import Filter from './Components/Filter';
 
 class App extends Component {
   state = {
